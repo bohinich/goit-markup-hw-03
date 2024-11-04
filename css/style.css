@@ -4,6 +4,10 @@ body{
     background-color: #fff;
 }
 
+img{
+    display: block;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -15,6 +19,21 @@ ul{
 
 span{
     color: #2e2f42;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.conteiner{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigator{
+    display: flex;
 }
 
 .logo{
