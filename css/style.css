@@ -34,6 +34,7 @@ span{
 
 .navigator{
     display: flex;
+     align-items: center;
 }
 
 .logo{
@@ -44,6 +45,12 @@ span{
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
 }
 
 .nav{
@@ -52,6 +59,7 @@ span{
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav:hover{
@@ -64,6 +72,11 @@ span{
 
 .address{
     font-style: normal;
+}
+
+.list-contacts{
+    display: flex;
+    gap: 40px;
 }
 
 .contacts{
